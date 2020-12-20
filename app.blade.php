@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Realtime Presence Monitoring') }}</title>
+    <title>Realtime Presence Monitoring</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -20,7 +20,7 @@
     <link href = "{{asset ('css/bootstrap.min.css')}}" rel = "stylesheet">
 
 </head>
-<body>
+<body style="background-color: rgb(119, 125, 131)">
     <div id="app">
 
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
